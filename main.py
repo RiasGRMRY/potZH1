@@ -15,6 +15,7 @@ def Feladat1(filepath:str,mode:str)->list:
         adatok.append(Fuvar(int(SpT[0]),int(SpT[1]),int(SpT[2])))
         sor= inputTavok.readline().strip()
     inputTavok.close()
+    #print(adatok)
     return adatok
 def Feladat2(adatok:list):
     for i in adatok:
